@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weis_array">
+        <item>3 aufeinanderfolgende Karten der gleichen Farbe</item>
+        <item>4 aufeinanderfolgende Karten der gleichen Farbe</item>
+        <item>5 aufeinanderfolgende Karten der gleichen Farbe</item>
+        <item>6 aufeinanderfolgende Karten der gleichen Farbe</item>
+        <item>7 aufeinanderfolgende Karten der gleichen Farbe</item>
+        <item>8 aufeinanderfolgende Karten der gleichen Farbe</item>
+        <item>9 aufeinanderfolgende Karten der gleichen Farbe</item>
+        <item>4 Asse / Könige / Ober / Banner / Achter / Siebner / Sechser</item>
+        <item>4 Under</item>
+        <item>4 Neuner</item>
+    </string-array>
+    
+</resources>

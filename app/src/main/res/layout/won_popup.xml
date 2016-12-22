@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/text_won"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:text=""
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/text_won_point1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_below="@id/text_won"
+        android:text="@string/result_t1"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/won_points1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@id/text_won"
+        android:layout_toRightOf="@id/text_won_point1"
+        android:text=""
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/text_won_point2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_won_point1"
+        android:layout_margin="5dp"
+        android:text="@string/result_t2"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/won_points2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@id/text_won_point1"
+        android:layout_toRightOf="@id/text_won_point2"
+        android:text=""
+        android:textSize="25sp" />
+
+</RelativeLayout>

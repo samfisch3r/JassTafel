@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/button_stoeck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:text="@string/stoeck" />
+    
+    <Button
+        android:id="@+id/button_weis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button_stoeck"
+        android:layout_marginRight="30dp"
+        android:text="@string/weis" />
+    
+    <Button
+        android:id="@+id/button_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/button_weis"
+        android:text="@string/match" />
+
+    <ImageButton
+        android:id="@+id/image_eichel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_stoeck"
+        android:contentDescription="@string/description"
+        android:src="@drawable/eichel" />
+
+    <ImageButton
+        android:id="@+id/image_rose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_eichel"
+        android:layout_below="@id/button_stoeck"
+        android:contentDescription="@string/description"
+        android:src="@drawable/rose" />
+
+    <ImageButton
+        android:id="@+id/image_schelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_rose"
+        android:layout_below="@id/button_stoeck"
+        android:contentDescription="@string/description"
+        android:src="@drawable/schelle" />
+
+    <ImageButton
+        android:id="@+id/image_schild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_schelle"
+        android:layout_below="@id/button_stoeck"
+        android:contentDescription="@string/description"
+        android:src="@drawable/schild" />
+
+    <ImageButton
+        android:id="@+id/image_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_schild"
+        android:layout_below="@id/button_stoeck"
+        android:contentDescription="@string/description"
+        android:src="@drawable/up" />
+
+    <ImageButton
+        android:id="@+id/image_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_up"
+        android:layout_below="@id/button_stoeck"
+        android:contentDescription="@string/description"
+        android:src="@drawable/down" />
+    
+    <Spinner 
+        android:id="@+id/weis_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_eichel"
+        android:visibility="invisible"/>
+    
+    <TextView
+        android:id="@+id/text_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_eichel"
+        android:layout_margin="5dp"
+        android:textSize="25sp"
+        android:labelFor="@+id/result_points"
+        android:text="@string/points" />
+
+    <EditText
+        android:id="@+id/result_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/text_points"
+        android:layout_below="@id/image_eichel"
+        android:layout_margin="5dp"
+        android:ems="5"
+        android:textSize="20sp"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/text_multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_eichel"
+        android:layout_toRightOf="@id/result_points"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textSize="25sp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/text_result_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_points"
+        android:layout_margin="5dp"
+        android:text="@string/result_t1"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/text_points_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_points"
+        android:layout_toRightOf="@id/text_result_1"
+        android:layout_margin="5dp"
+        android:textSize="25sp"
+        android:text="" />
+    
+    <TextView
+        android:id="@+id/text_result_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_result_1"
+        android:layout_margin="5dp"
+        android:textSize="25sp"
+        android:text="@string/result_t2" />
+    
+    <TextView
+        android:id="@+id/text_points_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_result_1"
+        android:layout_toRightOf="@id/text_result_2"
+        android:layout_margin="5dp"
+        android:textSize="25sp"
+        android:text="" />
+
+</RelativeLayout>

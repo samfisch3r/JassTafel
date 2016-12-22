@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JassTafel</string>
+    <string name="base_limit">2500</string>
+    <string name="team1">Team 1</string>
+    <string name="team2">Team 2</string>
+    <string name="points_t1">0</string>
+    <string name="points_t2">0</string>
+    <string name="description">button</string>
+    <string name="points">P\u00FCnkt:</string>
+    <string name="result_t1">P\u00FCnkt Team 1:</string>
+    <string name="result_t2">P\u00FCnkt Team 2:</string>
+    <string name="match">Match</string>
+    <string name="weis">Wis</string>
+    <string name="stoeck">St\u00F6ck</string>
+
+</resources>
